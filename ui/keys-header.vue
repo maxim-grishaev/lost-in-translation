@@ -1,19 +1,18 @@
 <script lang="ts" setup>
-import { useKeysPagesStore } from '~/composables/useKeysPagesStore';
 import { formatNumber } from '~/lib/formatNumber';
+import Row from './row.vue';
+import Col from './col.vue';
 
-const props = defineProps<{ totalCount: number }>();
+defineProps<{ totalCount: number }>();
 
 const keysPages = useKeysPagesStore();
 </script>
 
 <template>
-  <div class="flex flex-row gap-4 justify-between">
-    <h2 class="flex flex-row gap-2 justify-center">
-      {{ formatNumber(props.totalCount) }} keys found
-    </h2>
+  <Col class="flex-grow md:flex-row md:justify-between md:items-end gap-4">
+    <Row class="justify-between grow items-end">
+      <h2>{{ formatNumber(totalCount) }} keys found</h2>
 
-    <div class="flex flex-row gap-4 mb-4">
       <UTooltip text="Items per page">
         <USelect
           size="sm"
@@ -22,18 +21,19 @@ const keysPages = useKeysPagesStore();
           @update:modelValue="keysPages.setPageSize"
         />
       </UTooltip>
+    </Row>
 
-      <UPagination
-        size="sm"
-        show-edges
-        :siblingCount="0"
-        activeColor="neutral"
-        activeVariant="subtle"
-        :page="keysPages.page"
-        :itemsPerPage="keysPages.pageSize"
-        :total="props.totalCount"
-        @update:page="keysPages.setPage"
-      />
-    </div>
-  </div>
+    <UPagination
+      size="sm"
+      show-edges
+      :siblingCount="0"
+      activeColor="neutral"
+      activeVariant="subtle"
+      :page="keysPages.page"
+      :itemsPerPage="keysPages.pageSize"
+      :total="totalCount"
+      @update:page="keysPages.setPage"
+      class="justify-self-end self-end grow-0 shrink"
+    />
+  </Col>
 </template>

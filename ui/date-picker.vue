@@ -1,8 +1,9 @@
 <script lang="ts" setup>
 import { CalendarDate, type DateValue } from '@internationalized/date';
 import { formatDate } from '~/lib/date';
+import Row from './row.vue';
 
-const model = defineModel<Date | undefined>();
+const model = defineModel<Date>();
 const emit = defineEmits(['update:date']);
 
 const open = ref(false);
@@ -49,7 +50,7 @@ const openPop = () => {
         @update:modelValue="(e) => handleDateValue(e as DateValue)"
       />
 
-      <div class="flex flex-row justify-end p-2">
+      <div class="flex justify-end p-2">
         <UButton
           variant="outline"
           size="sm"

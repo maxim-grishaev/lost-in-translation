@@ -1,7 +1,7 @@
 /**
  * exists at https://directus.altura.io/items/translationKeys_translations
  */
-export interface TranslationValue {
+export interface TranslationValue<LC = string> {
   /**
    * Internal reference id, you shouldn't need to use this.
    */
@@ -18,7 +18,25 @@ export interface TranslationValue {
    * The language code of this translation.
    * @example "en-GB", "nl-NL"
    */
-  languages_code: string;
+  languages_code: LC;
+}
+
+/**
+ * exists at https://directus.altura.io/items/languages
+ */
+export interface LanguageCodeItem {
+  /**
+   * The language code: e.g. "en-GB", "nl-NL"
+   */
+  code: string;
+  /**
+   * The language name: e.g. "English (UK)", "Dutch"
+   */
+  name: string;
+  /**
+   * The language direction
+   */
+  direction: 'ltr' | 'rtl';
 }
 
 /**
@@ -49,11 +67,12 @@ export type DirectusResponse<T> = {
 };
 export type DirectusCountResponse = DirectusResponse<[{ count: string }] | []>;
 
-export type DirectusError = {
-  errors: Array<{
-    message: string;
-    extensions: {
-      code: string;
-    };
-  }>;
+export type DirectusErrorItem = {
+  message: string;
+  extensions: {
+    code: string;
+  };
+};
+export type DirectusErrorResp = {
+  errors: DirectusErrorItem[];
 };

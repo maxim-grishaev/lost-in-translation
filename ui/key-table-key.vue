@@ -1,18 +1,13 @@
 <script lang="ts" setup>
-import type { FoundKey } from '~/lib/directus';
+import type { DirectusFoundKey } from '~/lib/directus/DirectusFoundKey';
+import { FLAG_NA, getFlagByLangCode } from '~/lib/getFlagByLangCode';
+import Row from './row.vue';
+import Col from './col.vue';
 
-const props = defineProps<{
-  foundKey: FoundKey;
+const { foundKey } = defineProps<{
+  foundKey: DirectusFoundKey;
 }>();
 
-const trunc = computed(() => {
-  const { key } = props.foundKey;
-  return key.length > 23
-    ? [key.substring(0, 10), key.substring(key.length - 10, key.length)].join(
-        '...',
-      )
-    : key;
-});
 const ICONS = {
   clip: 'i-lucide-clipboard',
   check: 'i-lucide-check',
@@ -20,30 +15,36 @@ const ICONS = {
 
 const icon = ref(ICONS.clip);
 const copyToClipboard = () => {
-  navigator.clipboard.writeText(props.foundKey.key);
+  navigator.clipboard.writeText(foundKey.key);
   icon.value = ICONS.check;
   setTimeout(() => {
     icon.value = ICONS.clip;
-  }, 2000);
+  }, 1500);
 };
 </script>
 
 <template>
-  <UPopover mode="hover" arrow>
-    <div class="font-mono text-sm truncate">
-      {{ props.foundKey.key }}
-    </div>
-    <template #content>
-      <div class="font-mono text-sm p-4">
-        {{ props.foundKey.key }}
+  <Col class="lg:flex-row lg:gap-2 lg:justify-between">
+    <UTooltip :text="foundKey.key" :content="{ side: 'top' }">
+      <span class="font-mono truncate text-sm">
+        {{ foundKey.key }}
+      </span>
+    </UTooltip>
+
+    <Row class="justify-end gap-1!">
+      <span v-for="it in foundKey.translations" :key="it.id">
+        {{ getFlagByLangCode(it.languages_code) || FLAG_NA }}
+      </span>
+      <UTooltip text="Copy key to clipboard" :content="{ side: 'top' }">
         <UButton
-          variant="outline"
-          size="sm"
+          variant="ghost"
+          size="xs"
+          color="neutral"
           :icon="icon"
           aria-label="Copy to clipboard"
           @click="copyToClipboard"
         />
-      </div>
-    </template>
-  </UPopover>
+      </UTooltip>
+    </Row>
+  </Col>
 </template>

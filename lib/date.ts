@@ -1,11 +1,11 @@
 import { format, isValid, parseISO } from 'date-fns';
 
-export const toDate = (date: unknown): Date | null => {
+export const toDate = (date: unknown): Date | undefined => {
   if (date === undefined) {
-    return null;
+    return undefined;
   }
   const d = parseISO(String(date));
-  return isValid(d) ? d : null;
+  return isValid(d) ? d : undefined;
 };
 
 export const isValidDate = isValid;

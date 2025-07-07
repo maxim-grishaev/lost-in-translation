@@ -1,6 +1,3 @@
-import { computed } from 'vue';
-import { defineStore } from 'pinia';
-
 const DEFAULT_STATE = {
   search: '',
   dateFrom: undefined as Date | undefined,

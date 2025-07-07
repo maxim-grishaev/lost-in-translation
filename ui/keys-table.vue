@@ -1,50 +1,94 @@
 <script lang="ts" setup>
-import type { FilterData } from '~/server/api/keys';
-import { ALL_LANGS, FLAG_NA, getFlag, getLang } from '~/lib/lang';
-import { useLangStore } from '~/composables/useLangStore';
+import type { APIKeysResp } from '~/server/api/keys';
+import { FLAG_NA, getFlagByLangCode } from '~/lib/getFlagByLangCode';
 import KeyTableKey from './key-table-key.vue';
 import KeyTableTranslation from './key-table-translation.vue';
 import KeyTableUpdatedAt from './key-table-updated-at.vue';
-import { NA } from './na';
+import Col from './col.vue';
+import KeyTablePopover from './key-table-popover.vue';
 
-const langStore = useLangStore();
+const { data } = defineProps<{ data: APIKeysResp }>();
 
-const props = defineProps<{ data: FilterData; lang: string }>();
+const { lang, allLangCodes, getLangNameByCode, setLang } = await useLangStore();
+
+const langOptions = computed(() => {
+  return allLangCodes.map((it) => ({
+    id: it,
+    label: [
+      getFlagByLangCode(it) || FLAG_NA,
+      getLangNameByCode(it) || 'n/a',
+    ].join(' '),
+  }));
+});
+
+const otherLangs = computed(() =>
+  allLangCodes.filter((it) => it !== lang.code),
+);
 </script>
 
 <template>
   <table class="table">
     <thead>
       <tr>
-        <th class="w-3/10 max-w-48">Key</th>
-        <th class="w-5/10">
+        <th class="w-3/10">Key</th>
+        <th class="w-full">
           <USelect
-            v-model="langStore.lang"
+            v-model="lang.code"
+            @update:model-value="setLang"
             value-key="id"
-            :items="
-              ALL_LANGS.map((it) => ({
-                id: it,
-                label: [getFlag(it) || FLAG_NA, getLang(it) || NA].join(' '),
-              }))
-            "
-            class="w-auto"
+            :items="langOptions"
+            class="w-40"
           />
         </th>
-        <th>Updated&nbsp;on</th>
+        <th class="w-0">Updated&nbsp;on</th>
       </tr>
     </thead>
     <tbody>
-      <tr v-for="it in props.data.items" :key="it.key">
-        <td class="w-3/10 max-w-48 align-top">
-          <KeyTableKey :foundKey="it" />
-        </td>
-        <td class="w-5/10">
-          <KeyTableTranslation :foundKey="it" :lang="props.lang" />
-        </td>
-        <td class="w-2/10 align-top">
-          <KeyTableUpdatedAt :updatedAt="it.updatedAt" />
-        </td>
-      </tr>
+      <KeyTablePopover
+        v-for="it in data.items"
+        :key="it.key"
+        :foundKey="it"
+        :lang="lang.code"
+      >
+        <tr class="hover:bg-white/3">
+          <td class="w-3/10 max-w-36">
+            <KeyTableKey :foundKey="it" />
+          </td>
+          <td class="w-full">
+            <KeyTableTranslation :foundKey="it" :lang="lang.code" />
+          </td>
+          <td class="w-0">
+            <KeyTableUpdatedAt :foundKey="it" />
+          </td>
+        </tr>
+      </KeyTablePopover>
     </tbody>
   </table>
 </template>
+
+<style scoped>
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+}
+tr {
+  border-bottom: 1px solid var(--border-color-muted);
+}
+td {
+  padding: 1rem 2rem 1rem 0;
+}
+th:last-child,
+td:last-child {
+  text-align: right;
+}
+td:first-child {
+  padding-left: 1rem;
+}
+td:last-child {
+  padding-right: 1rem;
+}
+tr:last-child {
+  border-bottom: none;
+}
+</style>

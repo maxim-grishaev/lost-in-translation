@@ -1,19 +1,15 @@
 <script lang="ts" setup>
 const model = defineModel<string>();
-const props = defineProps<{
-  placeholder?: string;
-}>();
+
+defineProps<{ placeholder?: string }>();
+
 const clear = () => {
   model.value = '';
 };
 </script>
 
 <template>
-  <UInput
-    v-model="model"
-    :placeholder="props.placeholder"
-    :ui="{ trailing: 'pe-1' }"
-  >
+  <UInput v-model="model" :placeholder="placeholder" :ui="{ trailing: 'pe-1' }">
     <template v-if="model" #trailing>
       <UButton
         color="neutral"

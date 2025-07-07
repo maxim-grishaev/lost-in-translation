@@ -1,36 +1,44 @@
+import { DIRECTUS_URL_TR_KEYS } from './url';
 import type { DirectusTranslation, TranslationValue } from './types';
 
-const API_URL = 'https://directus.altura.io/items/translationKeys';
-const FIELDS =
-  'key,updatedAt,variables,translations.id,translations.value,translations.languages_code';
+const TR_KEYS_FIELDS = [
+  'key',
+  'updatedAt',
+  'variables',
+  'translations.id',
+  'translations.value',
+  'translations.languages_code',
+].join(',');
 
-export type FoundKey = Pick<
+export type DirectusFoundKey = Pick<
   DirectusTranslation,
   'key' | 'updatedAt' | 'variables'
 > & {
   translations: Pick<TranslationValue, 'id' | 'value' | 'languages_code'>[];
 };
 
-export type KeysReqParams = {
-  pageIndex?: number;
-  pageSize?: number;
-  search?: string;
-  dateFrom?: Date;
-  dateTo?: Date;
-  sortBy?: string;
-  sortReverse?: boolean;
-};
-export const getDirectusURLs = ({
-  pageIndex,
-  pageSize,
-  search,
-  dateFrom,
-  dateTo,
-  sortBy,
-  sortReverse,
-}: KeysReqParams) => {
-  const url = new URL(API_URL);
-  url.searchParams.set('fields', FIELDS);
+export const getDirectusFoundKeyURLs = (
+  {
+    pageIndex,
+    pageSize,
+    search,
+    dateFrom,
+    dateTo,
+    sortBy,
+    sortReverse,
+  }: {
+    pageIndex?: number;
+    pageSize?: number;
+    search?: string;
+    dateFrom?: Date;
+    dateTo?: Date;
+    sortBy?: string;
+    sortReverse?: boolean;
+  },
+  baseURL = DIRECTUS_URL_TR_KEYS,
+) => {
+  const url = new URL(baseURL);
+  url.searchParams.set('fields', TR_KEYS_FIELDS);
   if (pageSize) {
     url.searchParams.set('limit', pageSize.toString());
   }

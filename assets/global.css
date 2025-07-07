@@ -81,6 +81,9 @@ h6 {
   font-weight: 500;
 }
 
+p {
+  margin: 1ex 0;
+}
 hr {
   border-style: solid;
   border-color: var(--shade-200);
@@ -95,21 +98,4 @@ li {
 main {
   width: 80%;
   margin: 40px auto;
-}
-
-.table th,
-.table td {
-  text-align: left;
-}
-.table tr {
-  border-bottom: 1px solid var(--border-color-muted);
-}
-.table td {
-  padding: 1rem 1rem 1rem 0;
-}
-.table td:last-child {
-  padding-right: 0;
-}
-.table tr:last-child {
-  border-bottom: none;
 }
