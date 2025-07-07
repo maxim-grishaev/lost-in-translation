@@ -1,0 +1,1990 @@
+{
+  "data": [
+    {
+      "key": "bidCompanion.addSuggestions",
+      "updatedAt": "2025-06-30T08:46:08.256Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34882,
+          "value": "Add suggestions to table {tableName} | Add one suggestion to table {tableName} | Add {count} selected suggestions to table {tableName}",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34883,
+          "value": "Voeg alle {amount} suggesties toe aan {tableName}\n",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bidCompanion.aiWarning",
+      "updatedAt": "2025-06-06T12:33:17.578Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34772,
+          "value": "AI is helpful, but not flawless. Always verify important information yourself.",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34849,
+          "value": "AI is behulpzaam, maar niet foutloos. Controleer belangrijke informatie altijd zelf.",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34850,
+          "value": "IA est utile, mais pas infaillible. Vérifiez toujours les informations importantes vous-même.",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bidCompanion.analysis.templateSelected",
+      "updatedAt": "2025-06-12T07:54:05.266Z",
+      "variables": ["name"],
+      "translations": [
+        {
+          "id": 34657,
+          "value": "You are running the {name} template",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34877,
+          "value": "U gebruikt momenteel de sjabloon {name}.",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34878,
+          "value": "Vous utilisez actuellement le modèle {name}.",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bidCompanion.createNewChat",
+      "updatedAt": "2025-06-19T08:10:08.290Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34606,
+          "value": "New chat",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34859,
+          "value": "Nieuw gesprek",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34860,
+          "value": "Nouvelle conversation",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bidCompanion.jumpToPresent",
+      "updatedAt": "2025-06-12T07:51:44.958Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34527,
+          "value": "Jump to present",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34873,
+          "value": "Ga naar de laatste",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34874,
+          "value": "Aller au dernier",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bidCompanion.name",
+      "updatedAt": "2025-06-06T13:05:24.754Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34546,
+          "value": "Bid Companion",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34869,
+          "value": "Bid Companion",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34870,
+          "value": "Bid Companion",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bidCompanion.report.errors.noFilesSelected",
+      "updatedAt": "2025-06-12T07:52:53.049Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34770,
+          "value": "There are no files selected. Please select files using the \"Add context\" button.",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34875,
+          "value": "Er zijn geen bestanden geselecteerd. Selecteer bestanden met de knop “Context toevoegen”.",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34876,
+          "value": "Aucun fichier sélectionné. Veuillez sélectionner des fichiers en utilisant le bouton “Ajouter un contexte”.",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "emails.forgotPassword.title",
+      "updatedAt": "2025-06-12T14:58:00.329Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34811,
+          "value": "Wachtwoord veranderen",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34812,
+          "value": "Change password",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "errors.project.data.deleteRow.title",
+      "updatedAt": "2025-07-02T10:52:34.282Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34373,
+          "value": "We were unable to delete this insight | We were unable to delete these insights",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35061,
+          "value": "We konden dit inzicht niet verwijderen | We konden deze inzichten niet verwijderen",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35062,
+          "value": "Nous n'avons pas pu supprimer cette information | Nous n'avons pas pu supprimer ces informations",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "general.details",
+      "updatedAt": "2025-06-30T18:43:58.653Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34371,
+          "value": "Details",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35046,
+          "value": "Details",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35047,
+          "value": "Détails",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "general.noData",
+      "updatedAt": "2025-06-30T18:51:05.726Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34994,
+          "value": "No data",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35052,
+          "value": "Geen gegevens beschikbaar",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35053,
+          "value": "Données non disponibles",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "general.showLess",
+      "updatedAt": "2025-06-13T13:13:41.752Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34886,
+          "value": "Show less",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34887,
+          "value": "Toon minder",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34888,
+          "value": "Montrer moins",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "general.unlink",
+      "updatedAt": "2025-07-02T10:59:54.648Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34992,
+          "value": "Unlink",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35063,
+          "value": "Ontkoppelen",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35064,
+          "value": "Dissocier",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "opportunities.tenderOpportunity.None",
+      "updatedAt": "2025-06-17T09:27:35.136Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 10210,
+          "value": "Unknown",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 21673,
+          "value": "Inconnu",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 33106,
+          "value": "Onbekend",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "opportunitites.bulkAccept.accept",
+      "updatedAt": "2025-06-25T08:41:21.933Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34535,
+          "value": "You're now following the accepted opportunity | You're now following the accepted opportunities",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34536,
+          "value": "Je volgt nu de geaccepteerde kans | Je volgt nu de geaccepteerde kansen",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34537,
+          "value": "Vous suivez maintenant l'opportunité acceptée | Vous suivez maintenant les opportunités acceptées",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "opportunitites.bulkAccept.error.catched",
+      "updatedAt": "2025-06-25T08:40:56.020Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34533,
+          "value": "Opportunity cannot be accepted | Opportunities cannot be accepted",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34538,
+          "value": "L'opportunité ne peut être acceptée | Les opportunités ne peuvent être acceptées",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34539,
+          "value": "L'opportunité ne peut être acceptée | Les opportunités ne peuvent être acceptées",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "opportunitites.bulkAccept.error.subtext",
+      "updatedAt": "2025-06-25T08:40:29.147Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34531,
+          "value": "We will not archive and follow it, check logs for more information | We will not archive and follow them, check logs for more information",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34540,
+          "value": "We zullen ze niet archiveren en volgen, controleer de logs voor meer informatie | We zullen ze niet archiveren en volgen, controleer de logs voor meer informatie",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34541,
+          "value": "Nous ne les archiverons pas et ne les suivrons pas, vérifiez les journaux pour plus d'informations | Nous ne les archiverons pas et ne les suivrons pas, vérifiez les journaux pour plus d'informations",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "opportunitites.bulkAccept.error.text",
+      "updatedAt": "2025-06-25T08:40:32.476Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34530,
+          "value": "An opportunity was not accepted | Some opportunities were not accepted",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34542,
+          "value": "Une opportunité n'a pas été acceptée | Certaines opportunités n'ont pas été acceptées",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34543,
+          "value": "Een kans werd niet aangenomen | Sommige kansen werden niet aangenomen",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "permissions.groups.luzmo",
+      "updatedAt": "2025-07-04T05:28:51.546Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 35071,
+          "value": "Dashboards",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35072,
+          "value": "Dashboards",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35073,
+          "value": "Dashboards",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "permissions.permissions.luzmo:dashboards.edit",
+      "updatedAt": "2025-07-04T05:29:41.341Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 35069,
+          "value": "Can view and edit dashboards",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35074,
+          "value": "Kan dashboards bekijken en bewerken\n",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35075,
+          "value": "Peut consulter et modifier les tableaux de bord",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "permissions.permissions.luzmo:dashboards.name",
+      "updatedAt": "2025-07-04T05:29:51.775Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 35070,
+          "value": "Dashboards",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35076,
+          "value": "Dashboards",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35077,
+          "value": "Dashboards",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "permissions.permissions.luzmo:dashboards.none",
+      "updatedAt": "2025-07-04T05:30:16.144Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 35067,
+          "value": "No access",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35078,
+          "value": "Geen toegang",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35079,
+          "value": "Aucun accès",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "permissions.permissions.luzmo:dashboards.view",
+      "updatedAt": "2025-07-04T05:30:42.765Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 35068,
+          "value": "Can view dashboards",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35080,
+          "value": "Kan dashboards bekijken",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35081,
+          "value": "Peut consulter les tableaux de bord",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.archivedEmptyState.description",
+      "updatedAt": "2025-06-25T09:36:22.010Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 35016,
+          "value": "You can archive projects to keep your workspace organized.",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35031,
+          "value": "Je kunt projecten archiveren om je werkruimte georganiseerd te houden.",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35032,
+          "value": "Vous pouvez archiver des projets pour garder votre espace de travail organisé.",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.archivedEmptyState.title",
+      "updatedAt": "2025-06-25T09:35:32.560Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 35017,
+          "value": "No archived projects",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35029,
+          "value": "Geen gearchiveerde projecten",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35030,
+          "value": "Aucun projet archivé",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.boards.deleteBoardModal.body",
+      "updatedAt": "2025-06-23T14:07:27.100Z",
+      "variables": ["boardName"],
+      "translations": [
+        {
+          "id": 10339,
+          "value": "Are you sure you want to delete \"{boardName}\"? This action CANNOT be undone.\n\nThis board contains {count} project(s).",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 21800,
+          "value": "Êtes-vous sûr de vouloir supprimer \"{boardName}\" ?",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 33233,
+          "value": "Weet je zeker dat je \"{boardName}\" wilt verwijderen?",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.boards.deleteBoardModal.title",
+      "updatedAt": "2025-06-23T14:03:53.634Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 10341,
+          "value": "Delete this board?",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 21802,
+          "value": "Supprimer ce tableau ?",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 33235,
+          "value": "Dit bord verwijderen?",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.data.explanationModal.description",
+      "updatedAt": "2025-06-18T14:13:00.473Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34891,
+          "value": "You might notice certain tables and fields, like Requirements or Q&A, are marked as reserved. These aren’t just placeholders: they’re part of a growing data model that prepares the platform for future automation. By keeping these elements consistent, we’ll be able to build smarter features that reuse your existing work, like linking responses, identifying risks, or surfacing insights automatically.",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34919,
+          "value": "Sommige tabellen en velden, zoals Vereisten of NVI, zijn gemarkeerd als gereserveerd. Dat zijn geen lege placeholders: ze maken deel uit van een datamodel dat we opbouwen voor toekomstige automatisering. Door deze elementen consistent te houden, kunnen we straks slimme functies bouwen die voortbouwen op wat jij nu al invoert, zoals automatisch linken, risico’s signaleren of inzichten tonen.",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34920,
+          "value": "Certains tableaux et champs, comme Exigences ou Q&R, sont marqués comme réservés. Ce ne sont pas de simples étiquettes : ils font partie d’un modèle de données que nous construisons pour activer l’automatisation à l’avenir. En les gardant cohérents, nous pourrons développer des fonctionnalités intelligentes qui réutilisent le travail déjà effectué, comme relier des réponses, détecter des risques ou faire ressortir des insights.",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.data.explanationModal.heading",
+      "updatedAt": "2025-06-18T14:12:17.193Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34890,
+          "value": "Marked as reserved, for a reason",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34917,
+          "value": "Gereserveerd, met een reden",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34918,
+          "value": "Réservé par conception",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.data.table.createColumnModal.columnTypes.Boolean",
+      "updatedAt": "2025-06-16T12:30:07.637Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 10592,
+          "value": "Checkbox",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 22053,
+          "value": "Case à cocher",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 33486,
+          "value": "Checkbox",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.data.table.deleteRowConfirmModal.body",
+      "updatedAt": "2025-07-02T17:33:37.758Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34367,
+          "value": "Are you sure you want to delete this insight? | Are you sure you want to delete these insights?",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34423,
+          "value": "Weet je zeker dat je dit inzicht wilt verwijderen? | Weet je zeker dat je deze inzichten wilt verwijderen?",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34424,
+          "value": "Êtes-vous sûr de vouloir supprimer cet insight ? | Êtes-vous sûr de vouloir supprimer ces insights ?",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.data.table.deleteRowConfirmModal.successMessage",
+      "updatedAt": "2025-07-02T17:32:30.324Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34370,
+          "value": "Insight deleted successfully. | Insights deleted successfully.\n\n",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35059,
+          "value": "Inzicht succesvol verwijderd. | Inzichten succesvol verwijderd.\n\n",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35060,
+          "value": "Insight supprimé avec succès. | Insights supprimés avec succès.",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.data.table.deleteRowConfirmModal.title",
+      "updatedAt": "2025-07-02T10:49:15.900Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34368,
+          "value": "Delete insight | Delete insights",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34425,
+          "value": "Inzicht verwijderen | Inzichten verwijderen",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34426,
+          "value": "Supprimer la ligne | Supprimer les lignes",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.data.table.deleteTableConfirmModal.body",
+      "updatedAt": "2025-06-16T12:31:12.781Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34879,
+          "value": "Are you sure you want to delete this table?",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34893,
+          "value": "Weet u zeker dat u deze tabel wilt verwijderen?",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34896,
+          "value": "Êtes-vous sûr de vouloir supprimer ce tableau ?",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.data.table.deleteTableConfirmModal.successMessage",
+      "updatedAt": "2025-06-16T12:31:26.669Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34880,
+          "value": "You have successfully deleted this table",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34894,
+          "value": "U hebt deze tabel succesvol verwijderd",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34897,
+          "value": "Vous avez supprimé ce tableau avec succès",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.data.table.deleteTableConfirmModal.title",
+      "updatedAt": "2025-06-16T12:31:40.858Z",
+      "variables": ["name"],
+      "translations": [
+        {
+          "id": 34881,
+          "value": "Delete {tableName} table",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34895,
+          "value": "Verwijder {tableName} tabel",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34898,
+          "value": "Supprimer la table {tableName}",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.addToTable",
+      "updatedAt": "2025-06-18T13:02:31.652Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 10617,
+          "value": "Linked insights",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34433,
+          "value": "Gekoppelde inzichten",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34434,
+          "value": "Informations liées",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.availableNodes",
+      "updatedAt": "2025-06-30T18:52:55.552Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34987,
+          "value": "Available insights",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35056,
+          "value": "Beschikbare inzichten",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35057,
+          "value": "Insights disponibles",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.buttons.createInsight",
+      "updatedAt": "2025-06-30T18:47:05.382Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34907,
+          "value": "Add insight",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35050,
+          "value": "Inzicht toevoegen",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35051,
+          "value": "Ajouter un insight",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.create",
+      "updatedAt": "2025-06-18T13:03:10.409Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34357,
+          "value": "Create insight",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34435,
+          "value": "Creëer inzicht",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34436,
+          "value": "Créer une vision",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.createNode",
+      "updatedAt": "2025-06-18T13:04:17.026Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34375,
+          "value": "Add insight",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34911,
+          "value": "Ajouter un aperçu",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34912,
+          "value": "Voeg inzicht toe",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.errors.alreadyLinked",
+      "updatedAt": "2025-06-18T13:04:49.134Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34450,
+          "value": "This insight is already linked",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34913,
+          "value": "Dit inzicht is al gekoppeld",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34914,
+          "value": "Cette idée est déjà liée",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.errors.alreadyUnlinked",
+      "updatedAt": "2025-06-18T13:05:23.798Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34449,
+          "value": "This insight is not linked",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34915,
+          "value": "Cette idée n'est pas liée",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34916,
+          "value": "Dit inzicht is niet gekoppeld",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.errors.linkError",
+      "updatedAt": "2025-06-18T13:06:10.194Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34358,
+          "value": "Impossible to link this insight",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34439,
+          "value": "Onmogelijk om dit inzicht te koppelen",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34440,
+          "value": "Impossible de lier cette idée",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.errors.unlinkError",
+      "updatedAt": "2025-06-18T13:06:33.222Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34359,
+          "value": "Impossible to unlink this insight",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34441,
+          "value": "Onmogelijk om dit inzicht los te koppelen",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34442,
+          "value": "Impossible de dissocier cette idée",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.goToInsight",
+      "updatedAt": "2025-07-02T11:00:55.213Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34990,
+          "value": "Go to insight",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35065,
+          "value": "Ga naar inzicht",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35066,
+          "value": "Accéder à Insight",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.noRowsConnected",
+      "updatedAt": "2025-06-30T18:42:50.318Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34906,
+          "value": "Link your highlight to one or more insights to give it context.",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35044,
+          "value": "Koppel je highlight aan één of meerdere inzichten om context toe te voegen.\n",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35045,
+          "value": "Associez votre highlight à un ou plusieurs insights pour lui donner du contexte.\n",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.tableForDataNode",
+      "updatedAt": "2025-06-30T18:54:42.607Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34366,
+          "value": "Select a table to create insight",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34443,
+          "value": "Selecteer een tabel om een inzicht aan te maken",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34444,
+          "value": "Sélectionnez une table pour créer un insight",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.title",
+      "updatedAt": "2025-06-30T18:45:15.505Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34905,
+          "value": "Insights",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35048,
+          "value": "Inzichten",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35049,
+          "value": "Insights",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.createModal.titleAvailableNodes",
+      "updatedAt": "2025-06-30T18:52:04.175Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34988,
+          "value": "Select from list of available insights",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35054,
+          "value": "Selecteer uit de lijst met beschikbare inzichten",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35055,
+          "value": "Sélectionnez dans la liste des insights disponibles",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.goToBidBook",
+      "updatedAt": "2025-06-20T12:17:49.593Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34871,
+          "value": "Go to Bid Book",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34997,
+          "value": "Ga naar BidBook",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34998,
+          "value": "Aller au BidBook",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.noTables.button",
+      "updatedAt": "2025-06-17T08:39:13.492Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34482,
+          "value": "Go to Bid Book",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34484,
+          "value": "Ga naar de Bid Book",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34485,
+          "value": "Accéder à Bid Book",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.annotations.noTables.description",
+      "updatedAt": "2025-06-17T08:39:44.955Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34477,
+          "value": "You can create highlights now, but they can’t be added to a table yet. Please go to the Bid Book first to create a table. Once the table is set up, you’ll be able to link your highlights to specific rows.",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34478,
+          "value": "Je kunt nu wel highlights maken, maar deze kunnen nog niet worden toegevoegd aan een tabel. Ga eerst naar de Bid Book om een tabel aan te maken. Pas daarna kun je je highlights koppelen aan specifieke rijen in de tabel.",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34479,
+          "value": "Vous pouvez créer des highlights maintenant, mais elles ne peuvent pas encore être ajoutées à une table. Veuillez d’abord aller à Bid Book pour créer une table. Une fois la table créée, vous pourrez lier vos highlights aux lignes correspondantes.",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.modules.documents.makeHighlights",
+      "updatedAt": "2025-06-30T18:36:42.215Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34999,
+          "value": "Highlights",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35000,
+          "value": "Highlights",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35001,
+          "value": "Highlights",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "projects.tabs.bidBook",
+      "updatedAt": "2025-06-13T08:38:45.763Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34872,
+          "value": "Bid Book",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34884,
+          "value": "Bid Book",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34885,
+          "value": "Bid Book",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "settings.modules.notifications.addedToProject",
+      "updatedAt": "2025-06-18T20:01:48.460Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34945,
+          "value": "You we're added to a project",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34946,
+          "value": "Je bent toegevoegd aan een project",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "settings.modules.notifications.assignedTask",
+      "updatedAt": "2025-06-18T20:02:25.138Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34947,
+          "value": "A task was assigned to you in a project",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34948,
+          "value": "Er is een taak aan u toegewezen in een project",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "settings.modules.notifications.newProjectDocument",
+      "updatedAt": "2025-06-18T20:01:11.575Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34943,
+          "value": "A new document is added to a project you are a member of",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34944,
+          "value": "Er is een nieuw document toegevoegd aan een project waarvan u lid bent",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "settings.modules.notifications.title",
+      "updatedAt": "2025-06-25T11:59:26.463Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 35033,
+          "value": "Notification settings",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 35034,
+          "value": "Notificatie instellingen",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "settings.modules.opportunities.listView.autoArchiveRejectionReason ",
+      "updatedAt": "2025-06-19T11:58:43.387Z",
+      "variables": null,
+      "translations": [
+        {
+          "id": 34909,
+          "value": "Auto archive rejection reason",
+          "languages_code": {
+            "code": "en-GB",
+            "name": "English (UK)",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34910,
+          "value": " Automatische archivering reden instellen",
+          "languages_code": {
+            "code": "nl-NL",
+            "name": "Dutch",
+            "direction": "ltr"
+          }
+        },
+        {
+          "id": 34989,
+          "value": "Raison du refus d'archivage automatique",
+          "languages_code": {
+            "code": "fr-FR",
+            "name": "French",
+            "direction": "ltr"
+          }
+        }
+      ]
+    }
+  ]
+}
