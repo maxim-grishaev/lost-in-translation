@@ -1,4 +1,4 @@
-<img src="public/goose.png" class="goose" style="width: 128px; height: 128px"/>
+<img src="public/img/goose.png" class="goose" style="width: 128px; height: 128px"/>
 
 # Hello there, future goose!
 
@@ -6,12 +6,12 @@ This is your technical assessment, in here we expect you to show the best you ca
 
 ## What we are looking for
 
-* A good code structure
-* Usage of composables
-* Code with extensibility in mind
-* Use up to date (s)css properties
-* Usage of typescript
-* Clear documentation (if it helps, add a readme.md)
+- A good code structure
+- Usage of composables
+- Code with extensibility in mind
+- Use up to date (s)css properties
+- Usage of typescript
+- Clear documentation (if it helps, add a readme.md)
 
 ## The assignment
 
@@ -19,15 +19,15 @@ You are asked to create a overview of all translation keys in Altura. In this vi
 
 ### Requirements
 
-* I can see a list of all translation keys
-    * I can see the key, translation value and the last updated date
-    * When hovering over a row, I see a tooltip with the full translation value for each locale.
-* I can filter on keys using a search input
-* I can filter on translation keys using a date range
-* I can see on which page I am and how many pages there are
-    * I am able to change the page
-    * I am able to change the page size
-* When no keys are found, I see a empty state
+- I can see a list of all translation keys
+  - I can see the key, translation value and the last updated date
+  - When hovering over a row, I see a tooltip with the full translation value for each locale.
+- I can filter on keys using a search input
+- I can filter on translation keys using a date range
+- I can see on which page I am and how many pages there are
+  - I am able to change the page
+  - I am able to change the page size
+- When no keys are found, I see a empty state
 
 The keys are hosted on our directus instance, you can it here:
 
@@ -41,7 +41,7 @@ Documentation about filtering in the directus api can be found [here](https://di
 
 You can use the following design as a reference, but feel free to make it your own.
 
-<img src="public/design.png" class="design" />
+<img src="public/img/design.png" class="design" />
 
 ## Turning the assignment in
 
