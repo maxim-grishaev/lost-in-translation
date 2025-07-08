@@ -1,23 +1,22 @@
 <script lang="ts" setup>
 import { CalendarDate, type DateValue } from '@internationalized/date';
 import { formatDate } from '~/lib/date';
-import Row from './row.vue';
 
 const model = defineModel<Date>();
 const emit = defineEmits(['update:date']);
 
-const open = ref(false);
-const date = computed(() => model.value ?? new Date());
-
+const date = model.value ? new Date(model.value) : undefined;
 const calValue = shallowRef(
-  new CalendarDate(
-    date.value.getFullYear(),
-    date.value.getMonth(),
-    date.value.getDate(),
-  ),
+  date
+    ? new CalendarDate(date.getFullYear(), date.getMonth(), date.getDate())
+    : null,
 );
 
+const open = ref(false);
 const handleDateValue = (value: DateValue) => {
+  if (!value) {
+    return;
+  }
   model.value = new Date(value.year, value.month, value.day);
   open.value = false;
 };

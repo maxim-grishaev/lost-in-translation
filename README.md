@@ -1,21 +1,6 @@
 <img src="public/img/goose.png" class="goose" style="width: 128px; height: 128px"/>
 
-# Hello there, future goose!
-
-This is your technical assessment, in here we expect you to show the best you can do. We expect to see clean code and a good UI with accessibility in mind. We expect that this assessment won't take more than 8 hours.
-
-## What we are looking for
-
-- A good code structure
-- Usage of composables
-- Code with extensibility in mind
-- Use up to date (s)css properties
-- Usage of typescript
-- Clear documentation (if it helps, add a readme.md)
-
-## The assignment
-
-You are asked to create a overview of all translation keys in Altura. In this view you must be able to filter on `key`, Translation values in different locales and the `updatedAt` date.
+# Hello there!
 
 ### Requirements
 
@@ -29,30 +14,64 @@ You are asked to create a overview of all translation keys in Altura. In this vi
   - I am able to change the page size
 - When no keys are found, I see a empty state
 
-The keys are hosted on our directus instance, you can it here:
+<img src="./public/img/screenshot.png" width="100%"/>
 
-`https://directus.altura.io/items/translationKeys`
+## Solution
 
-We already took the liberty to write typescript types for you. You can find them in the `types.d.ts` file of this project.
+- This is a Nuxt 3 application
+- State Management: Pinia
+- Nuxt UI for components with Tailwind CSS for styling
 
-Documentation about filtering in the directus api can be found [here](https://directus.io/docs/guides/connect/filter-rules). One note to add is that you are allowed to use the directus sdk, but bonus points if you don't.
+## Running the app
 
-### How it should look
+```bash
+npm ci
+npm run dev
+```
 
-You can use the following design as a reference, but feel free to make it your own.
+### Folder structure
 
-<img src="public/img/design.png" class="design" />
+_Mostly_ standard Nuxt layout with:
 
-## Turning the assignment in
+- `pages` for routing
+- `ui` for Vue components
+- `stores` for Pinia stores
+- `server/api` for API routes
+- `lib` for shared logic
+- `lib/directus` for Directus API types, fetching
 
-You get 3 days to complete this assignment.
-We expect you to create a new repository on your own github account. You can use this repository as a template.
-When you are done, please send us a link to your repository. We will review your code and get back to you as soon as possible.
-If you want to make it private, you should add `roy-ermers` as a collaborator.
+## Not implemented / Future improvements / Nice to have
 
----
+### Testing
 
-If you have any questions, feel free to ask! You can find me at:
+- Add `Vitest` for unit testing components and stores
+- Implement component testing with `@testing-library/vue`
+- Add E2E tests with `Playwright` or `Cypress`
+- Set up test coverage reporting
+- Add API mocking for tests
 
-[roy@altura.io](mailto:roy@altura.io)
-[LinkedIn](https://www.linkedin.com/in/roy-ermers-34b414186)
+### CSS
+
+Move inline Tailwind classes to `<style>` blocks with `@apply`.
+Create reusable CSS utility classes
+
+```html
+<template>
+  <div class="my-component" />
+</template>
+
+<style lang="postcss" scoped>
+  .my-component {
+    @apply flex items-center p-4 bg-white rounded-lg shadow-md;
+  }
+</style>
+```
+
+### Other Non Functional Requirements
+
+- DX tooling: `Eslint`, `Prettier`, or `Biome` monorepo tools like `nx` or `turborepo`
+- `.env` file support for secrets
+- CI/CD
+- Proper logging system
+- Add performance monitoring, and error tracking
+- Feature flagging and A/B testing

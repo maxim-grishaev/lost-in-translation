@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { toError } from './lib/toError';
-import Error from './ui/error.vue';
+import ErrorUi from './ui/error-ui.vue';
 
 useHead({
   title: 'Lost in Translation',
@@ -33,7 +33,7 @@ await callOnce(langStore.init).catch((err: unknown) => {
       <Error v-else :error="initError" />
 
       <template #error="{ error, clearError }">
-        <Error :error="error" :clearError="clearError" />
+        <ErrorUi :error="error" :clearError="clearError" />
       </template>
     </NuxtErrorBoundary>
   </UApp>
